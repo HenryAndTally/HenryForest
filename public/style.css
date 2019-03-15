@@ -1,0 +1,48 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+table{
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+}
+
+.im{
+  width: 20px;}
+
+.grass{background-image: url("https://cdn2.f-cdn.com/contestentries/44321/396651/526e0f3be440b_thumbCard.jpg")}
+
+.river{background-image: url("https://media.istockphoto.com/videos/top-view-of-river-in-rainforest-video-id864618162?s=640x640")}
+
+
+
+
+
+
+
+
+
+

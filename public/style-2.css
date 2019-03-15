@@ -1,0 +1,34 @@
+#mydiv{
+  position: absolute;
+  cursor: move; 
+}
+
+
+.page{
+ 
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgPic{
+  background-image: url("https://previews.123rf.com/images/marisha5/marisha51507/marisha5150700762/41823193-beautiful-forest-landscape-in-the-morning.jpg");
+}
+
+.login{
+  background-color: white;
+}
+
+#forrestrow{
+
+  position: relative;
+}
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-2.css">
+  </head>
+  <body>
+    <main class="page bgPic" id="main">
+      <!-- <section class="login show" id="log">
+        <label>Username</label ><input type="text" id="lu"> <br>
+        <label>Password</label> <input type="password" id="lp"><br>
+        <button  onclick="Login()" type="button">Login</button><br> <br>
+
+        <label>Create Username</label ><input type="text" id="cu"> <br>
+        <label>Create Password</label> <input type="password" id="cp" ><br>
+        <button type="button" onclick="addUsername()">Create</button>
+        <br>
+        <br>
+        <button type="button" onclick="music()">Turn Music on/off</button>
+      </section> -->
+
+      <section class="userPage" id="up">
+        
+        <h1>Welcome <span id="userh1"></span>!</h1>
+        <button onclick="log()">LOG OUT</button>
+        <table id="bg" class="grass">
+          <tr id="forrestrow"> <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd7Gyt4sz-GjlbJDR6JFdrJY0Wry7nJaG4EXj9YGXGhqGvbScQ" class="im" id="mydiv"></td></tr>
+
+        </table>
+        <button type="button" class="btree" onclick="tree()">Add Tree</button>
+        <button type="button" class="btree" onclick="tiger()">Add Tiger</button>
+        <button type="button" class="btree" onclick="panda()">Add Panda</button>
+        <button type="button" onclick="back()">Add Background.</button>
+        <button type="button" onclick="music()">Music on/off</button>
+        <br>
+        <br>
+        <br>
+       <label>Add animal</label> <input type="text" id="animalText"> <br>
+        <button type="button" onclick="addAnimal()">Add animal</button>
+        <br>
+        <br>
+        <label>Copy and paste an image address and click the button to see your image on the screen!</label><br>
+        <textarea id="animalpic"></textarea><br>
+        <button type="button" onclick="ani()" class="btree">Click to see your animal!</button>
+        
+        
+        <audio autoplay loop id="myVideo">
+          <source src="rainforest_ambience-GlorySunz-1938133500.mp3" type="audio/mpeg">
+        </audio>
+      </section>
+    </main>
+    
+    <script src="script.js"></script>
+    <script src="script-2.js"></script>
+    <script src="script-3.js"></script>
+    <script src="script-4.js"></script>
+    <script src="script-5.js"></script>
+  </body>
+</html>
