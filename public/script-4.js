@@ -1,3 +1,5 @@
+// var ui = new firebaseui.auth.AuthUI(firebase.auth());
+
 var Num = 0;
 
 
@@ -21,12 +23,19 @@ function back(){
 function log(){
   
   
-  document.getElementById("up").classList.remove("show");
-  document.getElementById("up").classList.add("hidden");
+  //document.getElementById("up").classList.remove("show");
+  //document.getElementById("up").classList.add("hidden");
 
 
-  document.getElementById("log").classList.remove("hidden");
-  document.getElementById("log").classList.add("show");
+  //document.getElementById("log").classList.remove("hidden");
+  //document.getElementById("log").classList.add("show");
+     
+   firebase.auth().signout().then(function() {
+    window.location= '/index.html';
+   });
+
+  
+     //hi tally           
 }
 
 

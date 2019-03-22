@@ -9,16 +9,14 @@ function tree(){
   newtree.setAttribute("class", "im");
   newtree.setAttribute("onclick", "dragTree(this)");
   dragElement(newtree);
- 
+ alert
   var topv;
   var leftv;
-  alert("set topv and leftv");
   topv = randomtopv();
   leftv= randomleftv();
-alert("called randomizing function")
-  newtree.style.top = topv
-  newtree.style.left = leftv
-  newtree.style.position = absolute;
+  newtree.style.top = topv;
+  newtree.style.left = leftv;
+  newtree.style.position = "absolute";
   
   document.getElementById("forrestrow").appendChild(newtree)
   
@@ -89,6 +87,8 @@ function ani(){
   topv = Math.random()*390  + 121 + "px";
   leftv= Math.random()*380   + 25 + "px";
 
+  //investigate getclientRect
+
   newanimal.style.top = topv
   newanimal.style.left = leftv
   
@@ -107,12 +107,12 @@ function ani(){
 
 
 function randomtopv(){
-alert("read top function :)")
-  return   `${Math.random()*350}px`;
+  return   `${(Math.random()*250) + 200}px`;
 }
 
 function randomleftv(){
 
-  return `${Math.random()*350}px`;
+  return `${(Math.random()*500) + 200}px` ;
+  
 }
 
